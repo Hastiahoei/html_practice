@@ -1,49 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head
+  <head>
     <meta charset="UTF-8" />
-    <link rel="stylessheet" href="javascript.js" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-        h1{
-            width: 300px;
-            height: 100px;
-            line-height: 100px;
-            background-color: pink;
-            text-align: center;
-            border-radius: 10px;
-            
-            
-        }
-    </style>
   </head>
   <body>
-    <h1 id="Yasin">next week</h1>
-    <button id="Hello">Click me</button>
-    <button onclick="document.getElementById('Yasin').style.backgroundColor ='red';"" >red</button>
-    <button onclick="document.getElementById('Yasin').style.backgroundColor ='blue';"" >blue</button>
-    <button onclick="document.getElementById('Yasin').style.backgroundColor ='green';"" >green</button>
-    <button onclick="document.getElementById('Yasin').style.backgroundColor ='yellow';"" >yellow</button>
+    <button
+      onclick="document.getElementById('yas').src='images/lampe on.gif'; "
+    >
+      turn on
+    </button>
 
-    <script src="javascript.js" ></script> 
-<hr>
-<style>
-h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 40px;
-    line-height: 150px;
-    text-align: center;
-    width: 500px;
-    margin: 25px;
-}
+    <img id="yas" src="images/lampe off.gif" />
 
-</style>
-
-<h2 id = "Hasti">Guten tag </h2>
-<button id = "schonen"> Click me </button>
-<button onclick="document.getElementById('Hasti').style.background ='pink';"">pink</button>
-<button onclick="document.getElementById('Hasti').style.background ='orange';"">orange</button>
-<button onclick="document.getElementById('Hasti').style.background ='yellow';"">yellow</button>
-
+    <button
+      onclick="document.getElementById('yas').src='images/lampe off.gif';"
+    >
+      turn off
+    </button>
   </body>
 </html>
